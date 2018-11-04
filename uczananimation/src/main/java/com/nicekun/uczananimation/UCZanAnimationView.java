@@ -1,4 +1,4 @@
-package com.nicekun.uctoutiaozananimation;
+package com.nicekun.uczananimation;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.nicekun.uctoutiaozananimation;
+package com.nicekun.uczananimation;
 
 import android.graphics.Canvas;
 import android.graphics.Color;

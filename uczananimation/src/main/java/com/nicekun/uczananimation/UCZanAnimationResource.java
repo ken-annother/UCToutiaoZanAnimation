@@ -1,4 +1,4 @@
-package com.nicekun.uctoutiaozananimation;
+package com.nicekun.uczananimation;
 
 import android.content.Context;
 import android.graphics.Bitmap;

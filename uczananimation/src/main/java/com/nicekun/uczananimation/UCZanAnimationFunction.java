@@ -1,4 +1,4 @@
-package com.nicekun.uctoutiaozananimation;
+package com.nicekun.uczananimation;
 
 public interface UCZanAnimationFunction {
     int moveDeltaX(int redrawCount);

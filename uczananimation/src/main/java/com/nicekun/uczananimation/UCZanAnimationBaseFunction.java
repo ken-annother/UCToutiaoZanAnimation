@@ -1,4 +1,4 @@
-package com.nicekun.uctoutiaozananimation;
+package com.nicekun.uczananimation;
 
 public class UCZanAnimationBaseFunction implements UCZanAnimationFunction {
     private float mDownwardStartSpeed;

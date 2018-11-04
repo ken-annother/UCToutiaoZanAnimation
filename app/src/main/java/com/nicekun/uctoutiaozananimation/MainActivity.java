@@ -1,11 +1,13 @@
 package com.nicekun.uctoutiaozananimation;
 
 import android.graphics.Typeface;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.FrameLayout;
+
+import com.nicekun.uczananimation.UCZanAnimation;
+import com.nicekun.uczananimation.UCZanAnimationResource;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
