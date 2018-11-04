@@ -5,7 +5,7 @@
 
 效果如下:
 
-    ![image](./pics.gif)
+![image](./pics.gif)
 
 
 ### 用法:
