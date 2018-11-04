@@ -4,8 +4,7 @@
 采用Surfaceview自定义的.
 
 效果如下:
-
-<img src="./pics.gif" width="500" hegiht="313" align=center />
+    ![image](./pics.gif)
 
 
 ### 用法:
@@ -61,7 +60,7 @@
         </android.support.constraint.ConstraintLayout>
 
 2. 在asset目录添加一个动画资源文件
-    [png](./aseetpic.png)
+    ![image](./aseetpic.png)
 
 
 3. 在页面初始化的时候,进行初始化
