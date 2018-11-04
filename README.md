@@ -5,7 +5,7 @@
 
 效果如下:
 
-![gif](./pics.gif =200x300)
+<img src="./pics.gif" width="500" hegiht="313" align=center />
 
 
 ### 用法:
