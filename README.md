@@ -60,8 +60,11 @@
 
         </android.support.constraint.ConstraintLayout>
 
+2. 在asset目录添加一个动画资源文件
+    [png](./aseetpic.png)
 
-2. 在页面初始化的时候,进行初始化
+
+3. 在页面初始化的时候,进行初始化
 
             private void initView() {
                 mZanBtn = findViewById(R.id.zan_btn);
@@ -69,7 +72,9 @@
 
                 //设置动画资源
                 UCZanAnimationResource ucZanAnimationResource = new UCZanAnimationResource.UCZanAnimationResourceBuilder(this)
+                        //asset 目录下的放资源的子目录
                         .appendAssetResource("UCZanAnimation")
+                        //设置动画资源 用来送惊喜的资源名称
                         .setSupriseFileNameOfAssets(new String[]{"玫瑰花", "元宝", "音乐", "玫瑰花"})
                         .build();
 
@@ -80,7 +85,7 @@
                 mZanBtn.setOnClickListener(this);
             }
 
-3. 在点击事件进行动画播放
+4. 在点击事件进行动画播放
 
         @Override
             public void onClick(View v) {
