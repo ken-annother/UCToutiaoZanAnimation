@@ -64,8 +64,12 @@
 
 ![image](./aseetpic.png)
 
+3. 添加动画工程依赖
+   将本工程的uczananimation库整合到项目中, 或者直接添加以下依赖:
 
-3. 在页面初始化的时候,进行初始化
+        compile 'com.nicekun:uczananimation:1.0.0'
+
+4. 在页面初始化的时候,进行初始化
 
             private void initView() {
                 mZanBtn = findViewById(R.id.zan_btn);
@@ -86,7 +90,7 @@
                 mZanBtn.setOnClickListener(this);
             }
 
-4. 在点击事件进行动画播放
+5. 在点击事件进行动画播放
 
         @Override
             public void onClick(View v) {
